@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Dr. Urvi Nagure's Clinic </title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/responsiveslides.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		  <script>
+		    // You can also use "$(window).load(function() {"
+			    $(function () {
+			
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1800,
+			        speed: 800
+			      });
+			});
+		  </script>
+<style>
+    .header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover { 
+  background-color: #008CBA;
+  color: white;
+}
+
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+</style>
+	</head>
+	<body>
+		<!--start-wrap-->
+		
+			<!--start-header-->
+			<div class="header" style="background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+				
+				<div class="wrap">
+				<!--start-logo-->
+
+
+				<div class="logo">
+					<img src="images/logo.jpg" alt=""style="margin-left: 2rem;margin-bottom: 1rem;margin-left: -6rem;margin-top: -1rem; height: 60px; width: 60px;"/>
+					<h1 style="font-size: 50px; margin-top: -5.2rem; font-family:Times New Roman; text-align: center;background: #C6FFDD;  /* fallback for old browsers */
+						background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+						background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+					">  <b>Dr. Urvi Nagure's Clinic</b>  </h1>
+				</div>
+				<!--end-logo-->
+				<!--start-top-nav-->
+				<div class="header-right" style="margin-top: 0.1rem;margin-right: -6rem;">
+						<a href="index.html" style="font-size: 2rem; border: none; color: black; padding: 16px 32px;text-align: center; text-decoration: none; display: inline-block; margin: 4px 2px; transition-duration: 0.4; cursor: pointer;">Home</a>
+						<a href="contact.php" style="font-size: 2rem; border: none; color: black; padding: 16px 32px;text-align: center; text-decoration: none; display: inline-block; margin: 4px 2px; transition-duration: 0.4; cursor: pointer;">Contact</a>
+						<a href="about.html" style="font-size: 2rem; border: none; color: black; padding: 16px 32px;text-align: center; text-decoration: none; display: inline-block; margin: 4px 2px; transition-duration: 0.4; cursor: pointer;">About</a>					
+				</div>
+
+
+				<div class="clear"> </div>
+				<!--end-top-nav-->
+			</div>
+			<!--end-header-->
+		</div>
+		<div class="clear"> </div>
+			<!--start-image-slider---->
+					<div class="image-slider">
+						<!-- Slideshow 1 -->
+					    <ul class="rslides" id="slider1">
+					     
+
+					      <li><img src="images/slider-image4.jpg" alt="" style="height: 675px;"></li>
+					      <li><img src="images/slider-image1.jpg" alt=""></li>
+					      <li><img src="images/slider-image5.jpg" alt="" style="height: 675px;"></li>
+					      <li><img src="images/slider-image2.jpg" alt=""></li>
+					      <li><img src="images/box-img2.jpg" alt="" style="height: 675px;"></li>
+					      <li><img src="images/slider-image1.jpg" alt=""></li>
+
+					    </ul>
+						 <!-- Slideshow 2 -->
+					</div>
+					<!--End-image-slider---->
+		    <div class="clear"> </div>
+		    <div class="content-grids">
+		    	<div class="wrap">
+		    	<div class="section group">
+								
+							
+				<div class="listview_1_of_3 images_1_of_3">
+					<div class="listimg listimg_1_of_2">
+						  <img src="images/grid-img3.png">
+					</div>
+					<div class="text list_1_of_2">
+						  <h3>Patients</h3>
+						  <p>Register & Book Appointment</p>
+						  <div class="button"><span><a href="hms/user-login.php">Click Here</a></span></div>
+				    </div>
+				</div>	
+
+				<div class="listview_1_of_3 images_1_of_3">
+					<div class="listimg listimg_1_of_2">
+						  <img src="images/grid-img1.png">
+					</div>
+					<div class="text list_1_of_2">
+						  <h3>Doctors Login</h3>
+						
+						  <div class="button"><span><a href="hms/doctor/">Click Here</a></span></div>
+					</div>
+				</div>
+
+
+					<div class="listview_1_of_3 images_1_of_3">
+					<div class="listimg listimg_1_of_2">
+						  <img src="images/grid-img2.png">
+					</div>
+					<div class="text list_1_of_2">
+						  <h3>Admin Login</h3>
+						
+						  <div class="button"><span><a href="hms/admin">Click Here</a></span></div>
+				     </div>
+				</div>			
+			</div>
+		    </div>
+		   </div>
+		   <div class="wrap">
+		   <div class="content-box">
+		   <div class="section group">
+				<div class="col_1_of_3 span_1_of_3 frist">
+				
+				</div>
+				<div class="col_1_of_3 span_1_of_3 second">
+					
+				</div>
+				<div class="col_1_of_3 span_1_of_3 frist">
+					
+					
+				</div>
+			</div>
+		   </div>
+		   </div>
+		  
+	</body>
+</html>
+
